@@ -127,8 +127,8 @@ const SongBar = () => {
                 <div className="flex gap-2 items-center">
                     <img src={masterSong.img} alt="" className='h-14' />
                     <div className="">
-                        <h3 className='text-sm font-semibold mb-1'>{masterSong?.title || "My Life"}</h3>
-                        <span className='text-xs'>{masterSong.artist || "Prathamesh Sirdesai"}</span>
+                        <h3 className='text-sm font-semibold mb-1'>{masterSong?.title || "Hare Krishna"}</h3>
+                        <span className='text-xs'>{masterSong.artist || "Kunal Katiyar"}</span>
                     </div>
                     <AiOutlineHeart className='ml-3 text-2xl' />
                     <CgScreen className='ml-3 text-2xl' />
